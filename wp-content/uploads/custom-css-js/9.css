@@ -1,0 +1,154 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+:root {
+  --magenta: #b60759 ;
+  --hotpink: #fe2a78;
+  --amaranth-purple: #b7094cff;
+  --jazzberry-jam: #a01a58ff;
+  --amaranth-m-p: #892b64ff;
+  --palatinate-purple: #723c70ff;
+  --cyber-grape: #5c4d7dff;
+  --bdazzled-blue: #455e89ff;
+  --sapphire-blue: #2e6f95ff;
+  --cg-blue: #1780a1ff;
+  --blue-munsell: #0091adff;
+  --periwinkle: #4625d4;
+  --dark-gray: #292b2c;
+  -—white: rgb(239, 226, 247);
+  --white-smoke: var(--white-smoke);
+  --smoky-black: #14110fff;
+  --gray-web: #7e7f83ff;
+  --almond: rgb(245, 232, 219);
+  --cultured: #f3f3f4ff;
+  --teal: #6cfed6;
+  --orange: #e77504  ;
+  --yellow: #fed37b;
+  --dirtyyellow: #8a7738;
+  --dirtyorange: #856f4c;
+}
+a {
+  color: var(--hotpink);
+}
+a[rel="tag"] {
+  color: #6cfed6;
+font: 'Fredericka the Great';
+  font-weight: bold;
+  width: auto;
+  margin: auto;
+  border: 0.1rem solid #fff;
+  border-radius: 2rem;
+  padding: 0.4em;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
+}
+h1 {
+  display: grid;
+  font-family: 'Bitter', serif;
+  font-size: 72px;
+  font-weight: bold;
+  background-image: linear-gradient(90deg,
+      var(--blue-munsell),
+      var(--amaranth-m-p),
+      var(--cyber-grape),
+      var(--jazzberry-jam));
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+h2 {
+  display: grid;
+  font-family: 'Bitter', serif;
+  font-size: 55px;
+  font-weight: bold;
+  background-image: linear-gradient(90deg,
+      var(--amaranth-purple),
+      var(--jazzberry-jam),
+      var(--palatinate-purple),
+      var(--amaranth-m-p));
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+h3 {
+  display: grid;
+  font-family: 'Bitter', serif;
+  font-size: 47px;
+   font-weight: bold;
+  background-image: linear-gradient(90deg,
+      var(--teal),
+      var(--cg-blue),
+      var(--periwinkle),
+      var(--blue-munsell));
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+h4 {
+  display: grid;
+  font-family: 'Bitter', serif;
+  font-size: 36px;
+   font-weight: bold;
+  background-image: linear-gradient(90deg,
+    var(--hotpink),  
+    var(--orange),
+      var(--yellow),
+      var(--magenta));
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+h5 {
+  display: grid;
+  font-size: 23px;
+   font-weight: bold;
+  background-image: linear-gradient(90deg,
+      var(--dirtyorange),
+      var(--dirtyyellow),
+      var(--gray-web));
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+body {
+  margin: 2rem;
+  font: 12px;
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--dark-gray);
+  color: white;
+}
+.url{
+  color: var(--teal);
+}
+p {
+	  display: grid;
+  background-image: linear-gradient(90deg,
+      var(--teal),
+      var(--cg-blue),
+      var(--periwinkle),
+      var(--blue-munsell));
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  margin: 2rem;
+  font: 12px;
+  font-family: "Zeeari";
+}</style>
+<!-- end Simple Custom CSS and JS -->
